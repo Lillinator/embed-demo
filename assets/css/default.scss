@@ -1,12 +1,14 @@
 ---
 ---
-@import "reset.scss";
+@import "reset.scss";\
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #FFF8DC;
+  color: #4B0082;
   font-family: sans-serif;
 }
 
@@ -30,7 +32,7 @@ body {
   }
 
   code {
-		display: block;
+    display: block;
     margin-top: 1rem;
     background-color: #efefef;
     padding: 0.5em;
