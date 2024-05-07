@@ -1,0 +1,39 @@
+---
+---
+@import "reset.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.example {
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed #ccc;
+  padding: 1em;
+
+  h3 {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  d-topics-list {
+    margin-top: 1rem;
+    display: block;
+
+    iframe {
+      width: 100%;
+    }
+  }
+
+  code {
+		display: block;
+    margin-top: 1rem;
+    background-color: #efefef;
+    padding: 0.5em;
+    font-family: monospace;
+  }
+}
